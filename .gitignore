@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+
+# Environment and system files
+.env
+.DS_Store
+.streamlit/
+
+# Dataset files - do not upload
+data/blood_cells/
+data/test/
+LYMPHOCYTE/
+
+# Keep trained model and evaluation results
+models/*
+!models/global_vit.pth
+!models/metrics.json
+!models/test_results.json
